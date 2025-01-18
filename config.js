@@ -121,11 +121,6 @@ global.official = [ // Agregate si eres Owner
 ["20124563219", '💫 Flash - Naruto 💫', 1],  
 ["972546887176", '👑 Flash - Zack 👑', 1]]
 
-global.mail = '' // Add email
-global.desc = '' // Add short description (20 caractres max)
-global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
-global.country = '' // Add country, example: 🇪🇨
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.packname = `𝐅𝐋𝐀𝐒𝐇﹝⚡️﹞𝐁𝐎𝐓` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
 global.author = `Naruto & Zack` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
@@ -210,15 +205,7 @@ message: {
 'caption': bottime,
 'jpegThumbnail': fs.readFileSync('./media/menus/Menu3.jpg')
 }}}
-
-
-global.multiplier = 85 // Cuanto más alto, más difícil subir de nivel 
-
-//Emojis RPG - Referencias
-global.rpg = {
-emoticon(string) {
-string = string.toLowerCase();
-let emot = {
+ {
       level: '🧬 Nivel : Level',
       limit: lenguajeGB.eDiamante(),
       exp: lenguajeGB.eExp(),
